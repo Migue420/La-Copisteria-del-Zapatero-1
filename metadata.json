@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Auto-Extractor IA",
+  "description": "An application where users upload files (PDF, CSV, TXT, images), write a natural language instruction, and an AI processes the files to generate a structured Excel file as output.",
+  "requestFramePermissions": []
+}

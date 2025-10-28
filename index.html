@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto-Extractor IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#0284c7',
+              'brand-secondary': '#0369a1',
+              'brand-light': '#e0f2fe',
+              'brand-dark': '#0c4a6e',
+              'base-100': '#f8fafc',
+              'base-200': '#e2e8f0',
+              'base-300': '#cbd5e1',
+              'base-content': '#0f172a',
+              'base-dark': '#1e293b',
+              'base-dark-content': '#e2e8f0',
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-100 dark:bg-base-dark text-base-content dark:text-base-dark-content">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
